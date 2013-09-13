@@ -104,7 +104,7 @@ public class TestAnagrama extends TestCase
 		String anagrama="romo";
 		boolean existe=an.buscar_Palabra(anagrama);
 		
-	    Assert.assertEquals("El anagrama deberia devolver verdadero",true,existe);
+	    Assert.assertEquals("El anagrama deberia devolver verdadero",false,existe);
 	}
     
 
